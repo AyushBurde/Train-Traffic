@@ -1,16 +1,16 @@
 
 Frontend UI - https://indian-railways-inte-191c.bolt.host/
-# 🚂 Train Arrival Time Prediction System
+#  Train Arrival Time Prediction System
 
 A comprehensive machine learning system for predicting train arrival times and stop durations using advanced ML algorithms and real-time data processing.
 
-## 🎯 Overview
+##  Overview
 
 This system addresses the critical need for precise train traffic control in Indian Railways by providing AI-powered predictions for:
 - **Travel Time**: How long a train takes from Station A to Station B
 - **Stop Duration**: How long a train stops at the destination station
 
-## ✨ Key Features
+##  Key Features
 
 - **High-Accuracy ML Models**: XGBoost and LightGBM with 97%+ accuracy
 - **Real-time Predictions**: Instant API-based predictions
@@ -19,7 +19,7 @@ This system addresses the critical need for precise train traffic control in Ind
 - **Batch Processing**: Predict multiple trains simultaneously
 - **RESTful API**: Easy integration with existing systems
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -47,7 +47,7 @@ This system addresses the critical need for precise train traffic control in Ind
 - **RMSE**: 2.85 minutes
 - **R² Score**: 0.969
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
@@ -84,7 +84,7 @@ python prediction_api.py
 streamlit run dashboard.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 train-predictor/
@@ -105,7 +105,7 @@ train-predictor/
 └── README.md                     # This file
 ```
 
-## 🔧 Usage Examples
+##  Usage Examples
 
 ### API Usage
 
@@ -192,7 +192,7 @@ print(f"Predicted travel time: {travel_time:.1f} minutes")
 print(f"Predicted stop duration: {stop_duration:.1f} minutes")
 ```
 
-## 📈 Features Used
+##  Features Used
 
 ### Time Features
 - Hour of day, day of week, month
@@ -224,7 +224,7 @@ print(f"Predicted stop duration: {stop_duration:.1f} minutes")
 - Train-station priority
 - Congestion-delay relationships
 
-## 🔍 Model Details
+##  Model Details
 
 ### XGBoost (Travel Time)
 - **Parameters**: n_estimators=50, learning_rate=0.1, max_depth=6
@@ -236,7 +236,7 @@ print(f"Predicted stop duration: {stop_duration:.1f} minutes")
 - **Features**: 53 engineered features
 - **Performance**: 96.9% accuracy
 
-## 🌐 API Endpoints
+##  API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -247,7 +247,7 @@ print(f"Predicted stop duration: {stop_duration:.1f} minutes")
 | `/predict/batch` | POST | Batch prediction for multiple trains |
 | `/model/info` | GET | Get model information |
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 ### Single Prediction Tab
 - Interactive form for input parameters
@@ -270,7 +270,7 @@ print(f"Predicted stop duration: {stop_duration:.1f} minutes")
 - Technical specifications
 - Usage guidelines
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `config.py` to customize:
 - Dataset parameters
@@ -286,7 +286,7 @@ Edit `config.py` to customize:
 - flask, streamlit
 - plotly, matplotlib, seaborn
 
-## 🚀 Deployment
+##  Deployment
 
 ### Local Deployment
 1. Install dependencies
@@ -302,7 +302,7 @@ Edit `config.py` to customize:
 4. Set up monitoring and logging
 5. Implement model versioning
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - **Real-time Data Integration**: Connect to live railway data feeds
 - **Advanced Weather Forecasting**: Integrate weather APIs
@@ -311,7 +311,7 @@ Edit `config.py` to customize:
 - **Mobile Application**: Native mobile app for controllers
 - **Edge Deployment**: Deploy models closer to railway stations
 
-## 📞 Support
+##  Support
 
 For questions or issues:
 1. Check the documentation
@@ -319,11 +319,11 @@ For questions or issues:
 3. Open an issue in the repository
 4. Contact the development team
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Indian Railways for the problem domain
 - Open source ML libraries (XGBoost, LightGBM, scikit-learn)
@@ -333,4 +333,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for Indian Railways**
+
 
