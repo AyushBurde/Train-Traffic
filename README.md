@@ -1,6 +1,6 @@
 
 Frontend UI - https://indian-railways-inte-191c.bolt.host/
-#  Train Arrival Time Prediction System
+#  Maximizing section throughput using AI-powered train traffic control
 
 A comprehensive machine learning system for predicting train arrival times and stop durations using advanced ML algorithms and real-time data processing.
 
@@ -333,5 +333,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ---
 
 **Built with ❤️ for Indian Railways**
+
 
 
